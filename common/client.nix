@@ -6,5 +6,6 @@
 	python3
 	git
 	vscode
+	gh
   ];
 }
