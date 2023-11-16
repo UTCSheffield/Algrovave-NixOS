@@ -7,5 +7,6 @@
 	git
 	vscode
 	gh
+	etcher
   ];
 }

@@ -18,4 +18,7 @@
 
   networking.hostName = "nixos"; # Define your hostname.
   system.stateVersion = "23.05"; # Did you read the comment?
+  nixpkgs.config.permittedInsecurePackages = [
+      "electron-12.2.3"
+  ];
 }
